@@ -195,7 +195,7 @@ form {
   height: 150px;
 }
 
-h1{
+/*h1{
   padding:50px;
   border: 1px solid #5D6063;
 }
@@ -213,4 +213,55 @@ div{
 p{
   padding: 10px;
   border: 2px solid #161616
+}
+
+/*h1{
+  border: 1px solid #5D6063;
+  background-color:rgb(245, 237, 126);
+  width: 1450px;
+  position: relative;
+  left: 15px;
+}
+
+ol{
+  border: 2px solid #5D6063;
+  background-color:rgb(177, 226, 228);
+}
+
+.AlbumNames{
+  background-color:rgb(9, 129, 129);
+  padding: 20px;
+  width: 450px;
+  box-sizing: border-box;
+  left: 100px;
+  bottom: -20px;
+  position: relative;
+  border: 2px solid #5D6063 
+  m
+}
+
+p{
+  border: 2px solid #161616
+}
+
+.GitHubAN{
+  background-color: rgb(9, 129, 129);
+  width: 1450px;
+  bottom: -410px;
+  position: relative
+}
+
+.ImageCarousel{
+  background-color: rgb(243, 235, 165);
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  right: 100px;
+  bottom: 132px;
+  border: 2px solid #5D6063
+}
+
+.ImageDesc{
+  background-color: rgb(255, 250, 208);
+  width: 200;
 }
