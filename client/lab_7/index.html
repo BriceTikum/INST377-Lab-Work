@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Wrapper Starts-->
+    <div class="wrapper">
+      <!--Header Starts-->
+      <!--<div class = "box">-->
+      <header class="header"><h1>Brice's Labs for CMSC377</h1></header>
+      <!--Header Ends-->
+      <!--</div>-->
+      <!--Container Start-->
+      <div class="container">
+        <!--Left side Start-->
+        <div class="left_section">
+          <h3>Form Inputs</h3>
+          <ol class="box">
+            Restaurant Name
+            <form action="/api" class="box main_form">
+                <label for="resto"></label>
+                <input type="text" name="resto" id="resto" />
+                <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+                <button type="submit" id= "get-resto">Submit</button>
+            </form>
+          </ol>
+        </div>
+        <!--Left side End-->
+
+        <!--<div class = 'box'> -->
+
+        <!--Right side Start-->
+        <div class="right_section">
+          <h2>Local Restaurant Map</h2>
+          <!--Grid Starts-->
+          <!--Grid Ends-->
+          <div class="box" id= "restaurant_list">
+              A list of restaurants from an API</div>
+        </div>
+        <!--Right side End-->
+        <!--</div>-->
+      </div>
+      <!--Container End-->
+
+      <!--Footer Starts-->
+      <footer class="footer">
+        YOUR GITHUB ACCOUNT NAME
+        <a href="https://github.com/BriceTikum/INST377-Lab-Work">Your Github Account</a>
+      </footer>
+      <!--Footer Ends-->
+    </div>
+    <script src="./script.js"></script>
+    <!--Wrapper Ends-->
+  </body>
+</html>
