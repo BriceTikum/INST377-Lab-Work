@@ -48,7 +48,7 @@ function injectHTML(list) {
 function processRestaurants(list) {
   console.log('fired restaurants list');
   const range = [...Array(15).keys()];
-  const newArray = range.map((item)=> {
+  const newArray = range.map((item) => {
     const index = getRandomIntInclusive(0, list.length);
     return list[index];
   });
@@ -82,6 +82,7 @@ function filterList(array, filterInputValue) {
     return lowerCaseName.includes(lowerCaseQuery);
   });
 }
+
 function initMap() {
   console.log('initMap');
   const map = L.map('map').setView([51.505, -0.09], 13);
@@ -101,6 +102,7 @@ async function mainEvent() {
 
   // the async keyword means we can make API requests
   initMap();
+  
   const form = document.querySelector('.main_form'); // get your main form so you can do JS with it
   const submit = document.querySelector('#get-resto'); // get a reference to your submit button
   const loadAnimation = document.querySelector('.lds-ellipsis');
