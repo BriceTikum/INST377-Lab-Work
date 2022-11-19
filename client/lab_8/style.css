@@ -69,13 +69,6 @@
 
 /* LAB 5-8 CSS CODE BELOW */
 
-/* MAP STYLES */
-#map { height: 180px; }
-
-
-
-
-
  form input {
   /* This is a hack to make sure our boxes line up with one another nicely */
   width: 100%;
@@ -318,4 +311,13 @@ margin: 0 auto;
 .grid img {
 width: 150px;
 height: 150px;
+}
+
+/* MAP STYLES */
+.map {
+display: border;
+width: 400px;
+height: 380px;
+border: 2px dashed rgb(99, 99, 99);
+margin-bottom: 1rem;
 }
