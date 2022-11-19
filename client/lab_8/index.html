@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lab2</title>
+    <title>Brice's Labs</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
     <link rel="stylesheet" href="style.css" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
   </head>
   <body>
     <!--Wrapper Starts-->
     <div class="wrapper">
       <!--Header Starts-->
       <!--<div class = "box">-->
-      <header class="header"><h1>Brice's Labs for CMSC377</h1></header>
+      <header class="header"><h1>Brice's Labs for INST377</h1></header>
       <!--Header Ends-->
       <!--</div>-->
       <!--Container Start-->
@@ -37,6 +44,7 @@
         <!--Right side Start-->
         <div class="right_section">
           <h2>Local Restaurant Map</h2>
+          <div id="map"></div>
           <!--Grid Starts-->
           <!--Grid Ends-->
           <div class="box" id= "restaurant_list">
