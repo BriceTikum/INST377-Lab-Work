@@ -283,7 +283,7 @@ border-radius: 6px;
 }
 
 .footer a {
-color: rgba(255, 224, 138, 1);
+color: hsl(44, 100%, 77%);
 text-decoration: underline;
 }
 

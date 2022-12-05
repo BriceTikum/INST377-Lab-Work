@@ -15,6 +15,7 @@
       	<header class="header"> <h1>Group 22 Final Project INST377</h1></header>
 
       	<div class="container">
+        <!-- Left Side Starts-->
        	 <div class="left_section">
           	<h2>Mock Draft</h2>
           	<form action="/api" class="box main_form">
@@ -26,19 +27,27 @@
             	<button type="submit" id="get-resto">Draft</button>
           </form>
         </div>
+        <!-- Left Side Ends-->
+
+        <!-- Right Side Starts-->
         <div class="right_section box">
           <h2>Player Stats</h2>
 
-          <div class="chart_container">
-            <canvas id="myChart"></canvas>
-          </div>
+          
+          <button class="prev">previous stat</button>
+            <div class="chart_container">
+                <canvas id="myChart"></canvas>
+            </div>
+          <button class="next">next stat</button>
           <div class="box" id="player_list">
             A list of Players from an API
+          </div>
         </div>
-      </div>
+        <!-- Right Side Ends-->
+
     </div>
     <footer class="footer">
-      hriportella
+      Group 22
       <a href="http://github.com/hriportella/INST377-Lab-Work" target="_blank" rel="noopener noreferrer">INST377 Github Org</a>
     </footer>
 		</div>
